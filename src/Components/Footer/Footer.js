@@ -2,9 +2,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Footer.css';
 import LightLogo from '../../Img/logo.png';
 import { Button, Col, Container, Form, FormControl, Row } from 'react-bootstrap';
+import Aos from 'aos';
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
+
 const Footer = () => {
+      useEffect(() => {
+            Aos.init({duration : 1000})
+      } , []);
+
       return (
-            <div className='footer'>
+            <div className='footer' data-aos="fade-up">
                   <div className='footer_section'>
                         <Container>
                               <Row>

@@ -3,6 +3,9 @@
       --second_color : #303A6C;
       --bg-header-color : #5260AB;
 }
+.seminar_summary{
+      overflow: hidden;
+}
 .seminar_summary-about > h2{
       font-size: 34px;
       font-weight: 700;
@@ -104,7 +107,7 @@
 
 @media screen and (max-width: 767px){
       .seminar_summary-about{
-            padding-top: 130px;
+            padding-top: 350px;
       }
       .seminar_summary-details{
             display: flex;
