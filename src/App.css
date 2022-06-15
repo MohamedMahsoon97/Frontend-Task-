@@ -1,43 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap');
 *{
       padding: 0px;
       margin: 0px;
       box-sizing: border-box;
+      font-family: 'Cairo', sans-serif;
 }
-.app{
-      display: flex;
-      flex-flow: column;
-      justify-content: center;
-}
-.App{
-      display: flex;
-      justify-content: center;
-      margin: 30px;
-}
-button{
-      width: 30px;
-      height: 30px;
-      background-color: cadetblue;
-      color: aliceblue;
-      border: none;
-      cursor: pointer;
-}
-span{
-      margin: 0px 20px;
-}
-.form{
-      display: flex;
-      justify-content: center;
-      margin: 30px 20px;
-}
-input{
-      width: 230px;
-      height: 30px;
-      margin: 0px 10px;
-}
-.btn{
-      width: 80px;
-      height: 30px;
-}
-h4{
-      text-align: center;
+body{
+      direction: rtl;
 }

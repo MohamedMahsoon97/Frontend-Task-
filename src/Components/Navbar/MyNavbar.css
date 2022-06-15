@@ -1,0 +1,229 @@
+:root {
+	--main_color: #51bfad;
+	--second_color: #303a6c;
+	--bg-header-color: #5260ab;
+}
+.navbar-expand .navbar-nav {
+	align-items: flex-end;
+}
+.nav-links {
+	background: #ffffff;
+	border-radius: 10px;
+	line-height: 30px;
+	width: 100%;
+	padding: 0px 20px;
+}
+.nav-links a {
+	font-size: 16px;
+      font-weight: 500;
+	letter-spacing: 0.5px;
+      position: relative;
+	display: block;
+	transition: 0.5s;
+	z-index: 1;
+}
+.nav-links a:hover {
+	color: #fff !important;
+}
+.nav-links .active-link {
+	color: var(--main_color) !important;
+}
+.nav-links a:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-top: 2px solid var(--main_color);
+	border-bottom: 2px solid var(--main_color);
+	transform: scaleY(2);
+	opacity: 0;
+	transition: 0.3s;
+}
+.nav-links a:after {
+	content: "";
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 100%;
+	height: 95%;
+	background-color: var(--main_color);
+      color: #fff;
+	transform: scale(0);
+	opacity: 0;
+	transition: 0.3s;
+	z-index: -1;
+}
+.nav-links a:hover:before {
+	transform: scaleY(1);
+	opacity: 1;
+}
+.nav-links a:hover:after {
+	transform: scaleY(1);
+	opacity: 1;
+}
+
+.lang {
+	color: #fff;
+}
+.navbar__search-bar {
+	margin: 0px 10px;
+}
+.navbar__search-inp {
+	position: relative;
+	background-color: transparent;
+	border: none;
+	border-radius: 0px;
+	border-bottom: 1px solid #ffffff;
+	padding-right: 30px;
+	width: 200px;
+	font-size: 16px;
+	color: #fff !important;
+}
+.navbar__search-inp:focus {
+	outline: none;
+	border-bottom: 1px solid var(--main_color);
+	background-color: transparent;
+}
+.navbar__search-inp::placeholder {
+	color: #ffffff;
+	padding-right: 0px;
+}
+.navbar__search-btn {
+	background-color: transparent;
+	position: absolute;
+	border: none;
+}
+.navbar__search-btn:hover {
+	background-color: transparent;
+}
+.navbar__calender {
+	display: flex;
+	align-items: center;
+	color: var(--main_color);
+	margin: 0px 20px;
+}
+.navbar__calender span {
+	padding-right: 5px;
+	font-size: 12px;
+}
+.navbar__account {
+	padding: 5px;
+	line-height: 40px;
+	background-color: var(--second_color);
+	border-radius: 50%;
+}
+
+
+.nav-links a {
+	position: relative;
+	display: block;
+	transition: 0.5s;
+	z-index: 1;
+}
+.nav-links a:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-top: 2px solid var(--main_color);
+	border-bottom: 2px solid var(--main_color);
+	transform: scaleY(2);
+	opacity: 0;
+	transition: 0.3s;
+}
+.nav-links a:after {
+	content: "";
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 100%;
+	height: 95%;
+	background-color: var(--main_color);
+      color: #fff;
+	transform: scale(0);
+	opacity: 0;
+	transition: 0.3s;
+	z-index: -1;
+}
+.nav-links a:hover {
+	color: #fff !important;
+}
+.nav-links a:hover:before {
+	transform: scaleY(1);
+	opacity: 1;
+}
+.nav-links a:hover:after {
+	transform: scaleY(1);
+	opacity: 1;
+}
+
+.navbar__link-res{
+	display: none;
+}
+
+/* Tablet screen */
+@media screen and (max-width: 991px){
+	.navbar__links{
+		display: none;
+	}
+	.navbar__link-res{
+		display: block;
+		height: 60px;
+	}
+	.nav-links-res{
+		position: relative;
+		background-color: #fff;
+		padding: 5px 20px;
+		z-index: 999;
+		border-radius: 4px;
+	}
+	.nav-links-res a{
+		position: relative;
+	}
+	.nav-links-res a:hover::after{
+		content: "";
+		position: absolute;
+		height: 45px;
+		width: 8px;
+		border-radius: 10px 0px 0px 10px;
+		background-color: var(--main_color);
+		right: -20px;
+		top: -1px;
+		/* border-right: 5px solid var(--main_color); */
+	}
+}
+/* Mobile screen */
+@media screen and (max-width: 767px){
+	.navbar__links{
+		display: none;
+	}
+	.navbar__link-res{
+		display: block;
+		height: 60px;
+	}
+	.nav-links-res{
+		position: relative;
+		background-color: #fff;
+		padding: 5px 20px;
+		z-index: 999;
+		border-radius: 4px;
+	}
+	.nav-links-res a{
+		position: relative;
+	}
+	.nav-links-res a:hover::after{
+		content: "";
+		position: absolute;
+		height: 45px;
+		width: 8px;
+		border-radius: 10px 0px 0px 10px;
+		background-color: var(--main_color);
+		right: -20px;
+		top: -1px;
+		/* border-right: 5px solid var(--main_color); */
+	}
+}

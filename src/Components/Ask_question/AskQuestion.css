@@ -1,0 +1,151 @@
+:root {
+	--main_color: #51bfad;
+	--second_color: #303a6c;
+	--bg-header-color: #5260ab;
+	--bg-header-color-light: #525fab5b;
+}
+.ask__question{
+      width: 100%;
+      padding-top: 50px;
+      overflow: hidden;
+}
+.ask__question-img-layout{
+      position: relative;
+      background-color: var(--bg-header-color);
+      height: 500px;
+      clip-path: ellipse(100% 75% at 100% 50%);
+}
+.ask__question-img-layout .student-img{
+      position: absolute;
+      width: 500px;
+      height: 500px;
+      object-fit: cover;
+      z-index: 1;
+      left: 0;
+}
+.ask__question-img-layout .student-pattern{
+      position: absolute;
+      width: 500px;
+      height: 500px;
+      top: 0;
+      z-index: 0;
+}
+
+.ask__question-content{
+      background-color: #fff;
+      box-shadow: #e0e0e04d 0px 1px 2px 0px, #d3d3d326 0px 2px 4px 2px;
+      padding: 20px;
+      width: 100%;
+      position: relative;
+      right: -50px;
+}
+.ask__question-content h6{
+      color: #F69C5D;
+}
+.ask__question-content-title{
+      padding-right: 20px;
+}
+.ask__question-content-title > h3{
+      font-size: 24px;
+      color: var(--second_color);
+}
+.ask__question-content-title > span{
+      font-size: 14px;
+      color: #525fab71;
+}
+
+/* this properties to make float label */
+.formfield {
+	position: relative;
+	box-sizing: border-box;
+	margin: 10px auto;
+	padding: 0px;
+	border: 0px;
+	font-size: 1em;
+}
+.formfield > input,
+.formfield > label {
+	padding: 1.2em;
+	margin: 0.5em 0;
+	width: 80%;
+}
+.formfield > input {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	outline: none;
+	position: relative;
+}
+.formfield > label {
+	position: absolute;
+	color: var(--main_color);
+	padding: 0px 0.5em 0px 0.5em;
+	margin: 0px;
+	font-size: 0.8em;
+	width: auto;
+	height: 1.3em;
+	background: white;
+	transition: 0.2s ease-in-out;
+	top: 0em;
+	right: 2em;
+}
+/* end */
+
+.send-question{
+      background-color: var(--bg-header-color-light);
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 5px 35px;
+      transition: all .3s ease-in-out;
+      border: 1px solid var(--bg-header-color-light);
+      margin-top: 10px;
+}
+.send-question:hover{
+      background-color: transparent;
+      color: var(--main_color);
+      border: 1px solid var(--bg-header-color-light)
+}
+
+@media screen and (max-width: 991px){
+      .ask__question-img-layout{
+            /* clip-path: ellipse( 90% 100% at center top); */
+      }
+      .ask__question-img-layout .student-img{
+            width: 100%;
+      }
+      .ask__question-img-layout .student-pattern{
+            width: 100%;
+            height: 300px;
+            top: 0px;
+            left: 0;
+            transform: rotateX(180deg);
+      }
+      .ask__question-content{
+            right: 0px;
+      }
+      .formfield > input{
+            width: 100%;
+      }
+}
+
+@media screen and (max-width: 767px){
+      .ask__question-img-layout{
+            clip-path: ellipse( 90% 100% at center top);
+      }
+      .ask__question-img-layout .student-img{
+            width: 100%;
+      }
+      .ask__question-img-layout .student-pattern{
+            width: 100%;
+            height: 300px;
+            top: 0px;
+            left: 0;
+            transform: rotateX(180deg);
+      }
+      .ask__question-content{
+            right: 0px;
+      }
+      .formfield > input{
+            width: 100%;
+      }
+}
