@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Safa-App/static/css/main.993e5997.chunk.css",
-    "main.js": "/Safa-App/static/js/main.64ee9afa.chunk.js",
-    "main.js.map": "/Safa-App/static/js/main.64ee9afa.chunk.js.map",
+    "main.css": "/Safa-App/static/css/main.b820fb45.chunk.css",
+    "main.js": "/Safa-App/static/js/main.fcb70422.chunk.js",
+    "main.js.map": "/Safa-App/static/js/main.fcb70422.chunk.js.map",
     "runtime-main.js": "/Safa-App/static/js/runtime-main.53eb9cd9.js",
     "runtime-main.js.map": "/Safa-App/static/js/runtime-main.53eb9cd9.js.map",
     "static/css/2.a2bc7d03.chunk.css": "/Safa-App/static/css/2.a2bc7d03.chunk.css",
-    "static/js/2.ca8e4daa.chunk.js": "/Safa-App/static/js/2.ca8e4daa.chunk.js",
-    "static/js/2.ca8e4daa.chunk.js.map": "/Safa-App/static/js/2.ca8e4daa.chunk.js.map",
+    "static/js/2.f187e02c.chunk.js": "/Safa-App/static/js/2.f187e02c.chunk.js",
+    "static/js/2.f187e02c.chunk.js.map": "/Safa-App/static/js/2.f187e02c.chunk.js.map",
     "index.html": "/Safa-App/index.html",
     "static/css/2.a2bc7d03.chunk.css.map": "/Safa-App/static/css/2.a2bc7d03.chunk.css.map",
-    "static/css/main.993e5997.chunk.css.map": "/Safa-App/static/css/main.993e5997.chunk.css.map",
-    "static/js/2.ca8e4daa.chunk.js.LICENSE.txt": "/Safa-App/static/js/2.ca8e4daa.chunk.js.LICENSE.txt",
+    "static/css/main.b820fb45.chunk.css.map": "/Safa-App/static/css/main.b820fb45.chunk.css.map",
+    "static/js/2.f187e02c.chunk.js.LICENSE.txt": "/Safa-App/static/js/2.f187e02c.chunk.js.LICENSE.txt",
     "static/media/Bitmap.bff9085d.png": "/Safa-App/static/media/Bitmap.bff9085d.png",
     "static/media/Object.cf1da0ad.png": "/Safa-App/static/media/Object.cf1da0ad.png",
     "static/media/front-student.fd24e505.png": "/Safa-App/static/media/front-student.fd24e505.png",
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.53eb9cd9.js",
     "static/css/2.a2bc7d03.chunk.css",
-    "static/js/2.ca8e4daa.chunk.js",
-    "static/css/main.993e5997.chunk.css",
-    "static/js/main.64ee9afa.chunk.js"
+    "static/js/2.f187e02c.chunk.js",
+    "static/css/main.b820fb45.chunk.css",
+    "static/js/main.fcb70422.chunk.js"
   ]
 }
